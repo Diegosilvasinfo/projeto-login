@@ -103,7 +103,7 @@ div.campo > input:focus-within
     background-color: #61d2cf;
     transform: translateY(-11px);
     height: 35px;
-    border-radius: 5px;
+    border-radius: 8px;
     overflow: hidden;
 }
 form > input[type = submit]
