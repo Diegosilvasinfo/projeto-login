@@ -101,7 +101,7 @@ div.campo > input:focus-within
 .entrada
 {
     background-color: #61d2cf;
-    transform: translateY(-10px);
+    transform: translateY(-11px);
     height: 35px;
     border-radius: 5px;
     overflow: hidden;
