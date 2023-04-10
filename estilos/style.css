@@ -63,11 +63,13 @@ div#formulario > p
 div.campo
 {
     background-color: #5f2c82;
-    border-radius: 5px;
+    border-radius: 8px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 5px;
     padding-left: 20px;
+    height: 40px;
+    border: 1px solid #5f2c82;
 }
 .material-symbols-outlined
 {
@@ -81,4 +83,55 @@ input
 {
     margin: 0px;
     height: 40px;
+    width: calc(100% - 30px);
+}
+div.campo > input:focus-within
+{
+    color: white;
+    background-color: white;
+    outline: none;
+}
+.entrada
+{
+    background-color: #61d2cf;
+    transform: translateY(-4.2px);
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+form > input[type = submit]
+{
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.enviar
+{
+    background-color: #408684;
+    color: white;
+    transition: .1s;
+}
+.enviar:hover
+{
+        background-color: #56b4b1;
+}
+.esqueci
+{
+    background-color: rgba(0, 0, 0, 0.468) ;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 3px;
+    padding-bottom: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: auto;
+}
+#emaili
+{
+    
 }
