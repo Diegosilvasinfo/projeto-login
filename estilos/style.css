@@ -122,16 +122,24 @@ form > input[type = submit]
     border-radius: 8px;
     text-align: center;
     margin-top: 3px;
-    padding-bottom: 10px;
+    height: 40px;
+  
+}
+.esqueci:hover
+{
+    background-color: rgba(0, 0, 0, 0.625) ;
+    transition: .1s;
 }
 a
 {
     text-decoration: none;
     color: white;
-    padding: 5px;
-    margin: auto;
+    margin: 0px;
+    margin-left: -10px;
 }
+
 #emaili
 {
-    
+    margin-left: 3px;
+  
 }
